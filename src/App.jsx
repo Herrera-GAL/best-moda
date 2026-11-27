@@ -94,7 +94,7 @@ export default function App() {
     references: ""
   });
 
-  const categories = ["Todos", "Hombre", "Mujer", "Unisex"];
+  const categories = ["Todos", "Hombre", "Mujer", "Pants Estilo Cargo", "Pijamas"];
 
   const filteredProducts = useMemo(() => {
     return PRODUCTS.filter((product) => {
@@ -600,7 +600,7 @@ export default function App() {
                     <strong>{money(product.price)}</strong>
 
                     <button onClick={() => openProduct(product)}>
-                      ELEGIR <Plus size={16} />
+                      <h2>ELEGIR</h2><Plus size={16} />
                     </button>
                   </div>
                 </div>

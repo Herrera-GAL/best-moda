@@ -62,4 +62,28 @@ export const PRODUCTS = [
     sizes: ["CH", "M", "G", "EG"],
     active: true
   },
+  {
+  id: 100,
+  name: "Pants Estilo Cargo",
+  category: "Pants Estilo Cargo",
+  description: "Pants cargo con diseño moderno y cómodo.",
+  price: 130,
+  image: "/imagenes/pants-cargo-negro.jpg",
+
+  colors: ["Negro", "Gris", "Café"],
+  sizes: ["Unitalla"],
+
+  images: {
+    Negro: "/imagenes/pants-cargo-negro.jpg",
+    Gris: "/imagenes/pants-cargo-gris.jpg",
+    Café: "/imagenes/pants-cargo-café.jpg"
+  },
+
+  stock: {
+    Negro: { Unitalla: 2 },
+    Gris: { Unitalla: 1 },
+    Café: { Unitalla: 1 }
+  },
+  active: true
+},
 ];
