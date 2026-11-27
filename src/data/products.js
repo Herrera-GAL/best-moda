@@ -86,4 +86,28 @@ export const PRODUCTS = [
   },
   active: true
 },
+{
+  id: 101,
+  name: "Pijama Suave",
+  category: "Pijamas",
+  description: "Pijama cómoda y suave para descansar.",
+  price: 120,
+  image: "/imagenes/pijama-suave-rosa.jpg",
+
+  colors: ["Rosa", "Blanco", "Amarillo"],
+  sizes: ["Unitalla"],
+
+  images: {
+    Rosa: "/imagenes/pijama-suave-rosa.jpg",
+    Blanco: "/imagenes/pijama-suave-blanco.jpg",
+    Amarillo: "/imagenes/pijama-suave-amarillo.jpg"
+  },
+
+  stock: {
+    Rosa: { Unitalla: 1 },
+    Blanco: { Unitalla: 2 },
+    Amarillo: { Unitalla: 1 }
+  },
+  active: true
+},
 ];
