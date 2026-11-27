@@ -9,10 +9,10 @@ export const PRODUCTS = [
     image: "/imagenes/chaleco-negro.jpg",
 
     stock: {
-      Negro: { CH: 0, M: 0, G: 0, EG: 0 },
-      DarkNavy: { CH: 0, M: 0, G: 0, EG: 0 },
-      DarkGray: { CH: 0, M: 0, G: 0, EG: 0 },
-      Chocolate: { CH: 0, M: 0, G: 0, EG: 0 }
+      Negro: { CH: 3, M: 5, G: 7, EG: 2 },
+      DarkNavy: { CH: 1, M: 1, G: 2, EG: 0 },
+      DarkGray: { CH: 0, M: 1, G: 2, EG: 1 },
+      Chocolate: { CH: 0, M: 2, G: 2, EG: 1 }
     },
 
     images: {
